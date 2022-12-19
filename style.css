@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    transition: .3s;
+}
+
+.display{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+:root {
+    --teamscolor-pink: #e91e63;
+    --white:#ffffff;
+    --teamscolor-purple: #9c27b0;
+    --text-grey: rgb(201, 201, 201);
+    --black: #000000;
+}
+
+
+/* ระดับ =======================================*/
+.class{
+    padding: 20px;
+    margin-right: 20px;
+    position: relative;
+    border: 1px solid var(--teamscolor-pink);
+    height: 260px;
+    border-radius: 10px;
+}
+.class h2{
+    text-align: center;
+    margin: 10px;
+    color: var(--teamscolor-pink);
+    font-weight: 500;
+}
+.layout_Grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bgButton{
+    margin: 5px;
+    background: none;
+    color: var(--teamscolor-pink);
+    border: 1px solid var(--teamscolor-pink);
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    transition: .3s;
+}
+.a1{
+    background: var(--teamscolor-pink);
+    color: var(--white);
+    border: none;
+}
+.a10,.a11,.a12{
+    background: none;
+    border: 1px solid var(--teamscolor-purple);
+    color: var(--teamscolor-purple);
+}
+/* ระดับ =======================================*/
+
+
+.container{
+    min-width: 250px;
+    max-width: 400px;
+    margin: 0 50px 50px 50px;
+}
+.h1{
+    margin-bottom: 20px;
+}
+.button1{
+    width: 50px;
+    height: 45px;
+    border: var(--teamscolor-pink);
+    background: var(--teamscolor-pink);
+    color: var(--white);
+    border-radius: 5px;
+    margin-left: 5px;
+    font-size: medium;
+}
+.text{
+    height: 40px;
+    width: 280px;
+    font-size: 24px;
+    padding: 10px;
+}
+p{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+
+/* mode =======================================*/
+
+.mode{
+    position: relative;
+
+}
+.modeEng,.modeThai,.addInput,.random{
+    width: 80px;
+    height: 40px;
+    background: none;
+    border: 1.5px solid var(--teamscolor-pink);
+    color: var(--teamscolor-pink);
+    border-radius: 15px;
+    transition: .5s;
+    font-weight: 550;
+    font-size: 15px;
+}
+.random{
+    border: 1.5px solid var(--teamscolor-purple);
+    height: 40px;
+    color: var(--teamscolor-purple);
+    border-radius: 15px;
+    transition: .3s;
+}
+.modeEng{
+    border: 1.5px solid var(--teamscolor-pink);
+    color: var(--white);
+    background: var(--teamscolor-pink);
+}
+
+.addInput{
+    transition: .4s;
+    font-weight: 500;
+    font-size: large;
+    border: 2px solid var(--teamscolor-pink);
+}
+.addInput:hover{
+    background: var(--teamscolor-pink);
+    color: var(--white);
+}
+
+/* mode day_night ===========================*/
+.day_night{
+    width: 100px;
+    height: 55px;
+    border: 3px solid var(--teamscolor-pink);
+    /*border: 3px solid var(--text-grey);*/
+    border-radius: 100px;
+    position: relative;
+}
+.day_night_mode{
+    width: 50px;
+    height: 50px;
+    background: var(--black);
+    border-radius: 100px;
+    position: absolute;
+    transition: .5s;
+    right: 45px;
+}
+
+/* input_box ================================*/
+.input_box{
+    display: flex;
+    margin: 30px 0 0px 0;
+}
+.space{
+    margin-right: 20px;
+}
+h2{
+    font-weight: 400;
+}
+.error{
+    font-size: larger;
+    transition: .3s;
+    color: var(--teamscolor-pink);
+}
+.textarea{
+    font-size: large;
+    padding: 10px;
+    resize:none; /* ลบตัวขยาย */
+}
+
+.aaa_night{
+    color: var(--text-grey);
+}
+.bbb{
+    background: none;
+    border: 2px solid var(--text-grey);
+}
