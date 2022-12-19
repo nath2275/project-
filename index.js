@@ -1,3 +1,5 @@
+// ไฟล์ต้นฉบับเฉยๆ ไม่เกี่ยวอะไรเลย
+
 let button1 = document.querySelector(".button1")
 const object = [
     {eng:"generous",thai:"ใจกว้าง"},
